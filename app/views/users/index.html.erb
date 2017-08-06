@@ -1,0 +1,15 @@
+<h1>Users are coming soon!</h1>
+
+=begin
+<% @users.each do |user| %>
+  
+  <h2><%= user.name %></h2>
+ 
+ <p><%= user.email %></p>
+
+<p>
+  <a href="<%= user_path(user.id) %>" class="btn btn-primary">Lire la suite</a>
+</p>
+
+<% end %>
+=end
